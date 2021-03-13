@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  focalboard:
+    build: ./focalboard
+    ports:
+      - "8080:8000"
