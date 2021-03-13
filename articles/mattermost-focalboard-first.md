@@ -1,6 +1,6 @@
 ---
 title: "NotionのようなUIのTrelloっぽいKanbanツールのOSSの Focalboard を触ってみた"
-emoji: "🗒"
+emoji: "🗒️"
 type: "tech"
 topics: [focalboard, oss, mattermost, trello, notion]
 published: true
