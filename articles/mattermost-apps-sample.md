@@ -3,7 +3,7 @@ title: "Mattermost Apps Frameworkを触ってみた"
 emoji: "🔌"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["mattermost", "integrations"]
-published: false
+published: true
 ---
 
 Mattermost 記事まとめ: https://blog.kaakaa.dev/tags/mattermost/
