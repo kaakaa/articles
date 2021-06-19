@@ -80,7 +80,6 @@ Welcomeメッセージは、Playbookを元に作成されたチャンネルに�
 ![incident-welcome-setting](https://blog.kaakaa.dev/images/posts/mattermost/releases-5.36/incident-welcome-setting.png)
 ![incident-welcome-message](https://blog.kaakaa.dev/images/posts/mattermost/releases-5.36/incident-welcome-message.png)
 
-
 ## 破壊的変更
 
 ### 高可用モードの通信がゴシッププロトコルに
