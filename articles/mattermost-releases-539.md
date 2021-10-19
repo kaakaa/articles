@@ -1,10 +1,11 @@
 ---
 title: "Mattermost 5.39の新機能"
 emoji: "🎉"
+type: "tech" 
 published: true
 date: 2021-09-17T11:00:00+09:00
 toc: true
-tags: ["mattermost", "releases"]
+topics: ["mattermost", "releases"]
 ---
 
 Mattermost 記事まとめ: https://blog.kaakaa.dev/tags/mattermost/
