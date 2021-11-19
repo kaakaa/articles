@@ -76,7 +76,7 @@ Mattermostでは、"オンライン"や"離席中"など、ユーザーの現在
 
 Playbookの参加者とオーナーへ、割り当てられているタスクの一覧や期限超過の状態などを含む通知メッセージが届くようになりました。
 
-![pl-todo](https://blog.kaakaa.dev/images/posts/mattermost/releases-6.1/pl-todo.png)
+![pl-todo](https://blog.kaakaa.dev/images/posts/mattermost/releases-6.1/pl-todo.webp)
 (画像は[公式エントリ](https://mattermost.com/blog/mattermost-v6-1-is-now-available/)から)
 
 `/playbook`コマンドを使い、通知をオフにすることや、任意のタイミングでTODOメッセージを受信することもできます。`/playbook`コマンドについては以下のドキュメントを参照してください。
