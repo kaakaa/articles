@@ -65,7 +65,7 @@ Mattermost 記事まとめ: https://blog.kaakaa.dev/tags/mattermost/
 Mattermost画面左上にあるサーバーのようなアイコンをクリックすると、接続するサーバーを選択するメニューが表示されます。
 
 
-![channels-mobile-v2](https://blog.kaakaa.dev/images/posts/mattermost/releases-7.0/channels-mobile-v2.jpg =400px)
+![channels-mobile-v2](https://blog.kaakaa.dev/images/posts/mattermost/releases-7.0/channels-mobile-v2.jpg =400x)
 
 ## Channels: 音声通話と画面共有 (Beta)
 
@@ -79,9 +79,8 @@ Slackのハドルミーティングのような音声通話機能がMattermost�
 音声通話/画面共有機能はDesktopアプリ、Mobileアプリ、およびブラウザ上で利用することができます。  
 Mobileアプリでも共有された画面を綺麗に見ることができました。共有画面のサイズが大きい場合は厳しそうですが。また、前述のMobileアプリv2.0では利用できませんでした。
 
-{{< image-resize "images/posts/mattermost/releases-7.0/channels-call-mobile.jpg" "150x150" >}}
 
-![hannels-call-mobile](https://blog.kaakaa.dev/images/posts/mattermost/releases-7.0/channels-call-mobile.jpg =400px)
+![hannels-call-mobile](https://blog.kaakaa.dev/images/posts/mattermost/releases-7.0/channels-call-mobile.jpg =400x)
 
 
 
