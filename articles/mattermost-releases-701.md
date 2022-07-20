@@ -1,5 +1,5 @@
 ---
-title: "Mattermost 7.0の新機能"
+title: "Mattermost 7.1の新機能"
 emoji: "🎉"
 type: "tech"
 published: true
