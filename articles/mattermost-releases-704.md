@@ -125,7 +125,7 @@ Mattermost v7.2で追加されたメッセージ転送(Message Forwarding)機能
 
 [Hacktoberfest](https://hacktoberfest.com/)の期間中(10月中)にMattermostへのコントリビューを行うと、オリジナルのステッカーが貰えるそうです。また、期間中のトップコントリビューターに選ばれると、Tシャツやマグカップ等も貰えるようです。
 
-![event-hacktoberfest-swags](https://blog.kaakaa.dev/images/posts/mattermost/releases-7.4/event-hacktoberfest-swags.png)
+![event-hacktoberfest-swags](https://blog.kaakaa.dev/images/posts/mattermost/releases-7.4/event-hacktoberfest-swags.webp)
 
 ### Mattermost関連の記事紹介
 
