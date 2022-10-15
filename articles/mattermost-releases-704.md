@@ -69,11 +69,6 @@ Boardsに対する権限ロールの設定は、Boards画面右上の **Share** 
 [Fix misaligned 'viewer' role on share board/template dialog by vivekkj123 · Pull Request \#3926 · mattermost/focalboard](https://github.com/mattermost/focalboard/pull/3926)
 
 
-<!-- 
-## Boards: Minimum default board roles
-(新しい機能の話でなくユースケースの話であり、説明しようとすると複雑になり混乱を与えそうなので割愛)
--->
-
 ## Boards: ゲストアカウントでもBoards機能が利用可能に
 
 Mattermostには昔から組織外のユーザー用に[**ゲストアカウント**](https://docs.mattermost.com/onboard/guest-accounts.html)を作成する機能がありましたが、本バージョンからゲストアカウントもBoardにアクセスできるようになりました。　 
