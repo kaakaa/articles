@@ -36,41 +36,41 @@ $ git checkout FETCH_HEAD
 package main
 
 import (
-	"log"
+    "log"
 
-	"github.com/go-git/go-git/v5"
-	"github.com/go-git/go-git/v5/config"
-	"github.com/go-git/go-git/v5/plumbing"
+    "github.com/go-git/go-git/v5"
+    "github.com/go-git/go-git/v5/config"
+    "github.com/go-git/go-git/v5/plumbing"
 )
 
 const (
-	url        = "https://github.com/matterpoll/matterpoll"
-	sha string = "a62dbe0410aa0836cd4b26e75f9319a952ff153d"
+    url        = "https://github.com/matterpoll/matterpoll"
+    sha string = "a62dbe0410aa0836cd4b26e75f9319a952ff153d"
 )
 
 func main() {
-  // git init
-	repo, _ := git.PlainInit("work", false)
+    // git init
+    repo, _ := git.PlainInit("work", false)
 
-  // git remote add origin https://github.com/owner/name
-  remote, _ := repo.CreateRemote(&config.RemoteConfig{
-		Name: "origin",
-		URLs: []string{url},
-	})
+    // git remote add origin https://github.com/owner/name
+    remote, _ := repo.CreateRemote(&config.RemoteConfig{
+        Name: "origin",
+        URLs: []string{url},
+    })
 
-  // git fetch --depth 1 origin $SHA1:refs/heads/target
-  var target = plumbing.NewBranchReferenceName("target")
-	_ = remote.Fetch(&git.FetchOptions{
-		RemoteName: "origin",
-		RefSpecs: []config.RefSpec{
-			config.RefSpec(plumbing.ReferenceName(sha) + ":" + target),
-		},
-		Depth: 1,
-	})
+    // git fetch --depth 1 origin $SHA1:refs/heads/target
+    var target = plumbing.NewBranchReferenceName("target")
+    _ = remote.Fetch(&git.FetchOptions{
+        RemoteName: "origin",
+        RefSpecs: []config.RefSpec{
+            config.RefSpec(plumbing.ReferenceName(sha) + ":" + target),
+        },
+        Depth: 1,
+    })
 
-  // git checkout target
-	tree, _ := repo.Worktree()
-	_ = tree.Checkout(&git.CheckoutOptions{Branch: target})
+    // git checkout target
+    tree, _ := repo.Worktree()
+    _ = tree.Checkout(&git.CheckoutOptions{Branch: target})
 }
 ```
 
