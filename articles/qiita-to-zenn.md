@@ -6,6 +6,10 @@ topics: ["qiita", "zenn"]
 published: true
 ---
 
+2023/02/21 掲載しているコードの内、Qiitaの制限に抵触する部分を修正しました。(詳細は[コメント](https://zenn.dev/link/comments/991082a51e4149)参照)
+
+---
+
 ここ数年、Qiita は「アップデートしました」と言いつつ使い勝手は何も変わってなかったり、ログインするたび興味もないキャンペーンの通知を送りつけてくるなど体験があまり良くないので Zenn に移ろうと思いました。
 
 ## 1. Qiita の記事を Zenn に移行する
@@ -136,7 +140,9 @@ func patchItem(client *http.Client, item QiitaItem) error {
 	url := fmt.Sprintf("https://zenn.dev/kaakaa/articles/qiita-%s-%s", t.Format("20060102"), item.Id)
 
 	b, err := json.Marshal(QiitaPatch{
-		Body:  fmt.Sprintf("この記事は Zenn に移行しました。\n%s", url),
+		// 短い内容で「移行」という言葉が含まれるとQiitaに弾かれるため文言を修正
+		// Body:  fmt.Sprintf("この記事は Zenn に移行しました。\n%s", url),
+		Body:  fmt.Sprintf("記事の内容は以下を参照してください。\n%s", url),
 		Title: item.Title,
 	})
 	if err != nil {
