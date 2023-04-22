@@ -84,7 +84,7 @@ Mattermostのコア機能に関するリポジトリがモノレポ化された�
 https://www.youtube.com/watch?v=Hx4Ex7YZZiA
 
 これはコミュニティメンバによって作られたツールで、Mattermostのメッセージを受け取ってOpenAI APIとやり取りをし、結果をMattermostに投稿するBotサーバーを構築するものです。  
-[yGuy/chatgpt\-mattermost\-bot: A very simple implementation of a service for a mattermost bot that uses ChatGPT in the backend\.](https://github.com/yGuy/chatgpt-mattermost-bot)
+https://github.com/yGuy/chatgpt-mattermost-bot
 
 この他にも、MattermostとChatGPTを連携したという日本語の記事もいくつか公開されています。
 
