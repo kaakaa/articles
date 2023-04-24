@@ -20,6 +20,12 @@ https://blog.tmtms.net/entry/202303-rabbit-on-firefox
 
 # できたもの
 
+(2023/04/24追記)
+[Slidev Addon](https://sli.dev/addons/use)としてnpm公開した。  
+https://www.npmjs.com/package/slidev-addon-rabbit
+
+---
+
 https://github.com/kaakaa/slidev-rabbit-turtle
 
 ビルドしたスライド資料をGitHub Pagesで公開している。  
