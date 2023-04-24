@@ -1,11 +1,11 @@
 ---
-title: "Slidevでプレゼン時間管理のためにウサギとカメを表示する"
+title: "Slidevでプレゼン時間管理のためにウサギとカメを表示するSlidev Addonを作った"
 emoji: "🐇"
 type: "tech"
 published: true
-date: 2023-04-23T23:30:00+09:00
+date: 2023-04-24T22:30:00+09:00
 toc: true
-tags: ["slidev", "rabbit"]
+tags: ["slidev", "slidev-addon", "slidev-addon-rabbit", "rabbit"]
 ---
 
 
