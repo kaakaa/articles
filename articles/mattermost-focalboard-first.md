@@ -6,6 +6,17 @@ topics: [focalboard, oss, mattermost, trello, notion]
 published: true
 ---
 
+:::message alert
+この記事で紹介しているFocalboard Personal Server / Focalboard Personal Desktopは、2023/4/30を以て新しい機能開発が行われなくなったようです。
+[mattermost/focalboard: Focalboard is an open source, self\-hosted alternative to Trello, Notion, and Asana\.](https://github.com/mattermost/focalboard)
+> ⚠️ Announcement: PLEASE READ ⚠️
+> 
+> Focalboard Personal Server and Personal Desktop editions will transition to being fully community supported as of April 30th, 2023. This Focalboard repository will become the Personal Edition repository, and will remain open indefinitely. However, we won’t be adding any new enhancements, and will only address Sev-1 level bugs until April 30th, 2023.
+
+Focalboard機能は、2021/10/31にリリースされたMattermost v6から[Mattermost](https://mattermost.com/)のコア機能として取り込まれており、こちらでは新規機能の開発も継続して行われているため、今後、Focalboardを利用する場合は、Mattermostを利用した方が良さそうです。
+[Mattermost v6\.0 is Now Available \- Mattermost](https://mattermost.com/blog/mattermost-v6-0-is-now-available/)
+:::
+
 # はじめに
 
 Slack Alternative な OSS のチャットツールを開発している [Mattermost](https://mattermost.com)社の [GitHub Organization](https://github.com/mattermost/focalboard) に、[Focalboard](https://github.com/mattermost/focalboard)という[Trello](https://trello.com/ja)・[Notion](https://notion.so)・[Asana](https://asana.com/ja) Alternative を名乗るリポジトリが作成されていたため、どのようなことができるのか動かして確かめてみました。
