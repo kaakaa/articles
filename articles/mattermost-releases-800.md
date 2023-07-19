@@ -176,9 +176,9 @@ Mattermost v7.0でGAとなった[返信スレッドの折り畳み](https://blog
 Microsoft Teams向けのConnectorの更新が行われ、Teamsアプリ内でMattermostを表示することができるようになったようです。  
 動作の様子や、設定方法などは以下の動画で確認することができます。
 
-{{< youtube Mg-stF7_Bjk >}}
+https://www.youtube.com/watch?v=Mg-stF7_Bjk
 
-{{< youtube MxegqqfErEg >}}
+https://www.youtube.com/watch?v=MxegqqfErEg
 
 ### (Platform) Atlassian製品との連携
 Jira、Confluence、Trello等のAtlassian社サービスとの連携が強化されたようです。  
