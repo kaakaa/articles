@@ -5,7 +5,7 @@ type: "tech"
 published: true
 date: 2023-07-23T23:30:00+09:00
 toc: true
-tags: ["mattermost", "plugin" "ai", "LLM", "OpenAI"]
+tags: ["mattermost", "plugin", "ai", "LLM", "OpenAI"]
 ---
 
 
