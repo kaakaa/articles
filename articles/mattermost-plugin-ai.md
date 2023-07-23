@@ -21,7 +21,7 @@ https://github.com/mattermost/mattermost-plugin-ai
 Mattermost AI Pluginは、まだ開発が始まったばかりのプロジェクトであり、この記事に書いた内容にも今後変更が加わる可能性がある点に注意して下さい。この記事では [Commit: 4b53767d6acadb290be1266f288e9d4b755fc6c4](https://github.com/mattermost/mattermost-plugin-ai/commit/4b53767d6acadb290be1266f288e9d4b755fc6c4) (2023/07/20)時点のプラグインを使用しています。
 :::
 
-## **Mattermost AI Plugin**インストール
+# **Mattermost AI Plugin**インストール
 
 Mattermost AIは開発段階のため、手動でインストールする必要があります。  
 インストールするには、以下のリンクから現在の最新版である`mattermost-ai-0.2.0.tar.gz`をダウンロードして、Mattermostへアップロードします。
@@ -40,7 +40,7 @@ https://github.com/mattermost/mattermost-plugin-ai/issues/19
 **Mattermost AI Plugin**を使用したサンドボックス環境を簡単に構築するため[mattermost/openops](https://github.com/mattermost/openops)が公開されているため、試してみるだけであればこちらを使用する方法もあります。
 :::
 
-## **Mattermost AI Plugin**の設定
+# **Mattermost AI Plugin**の設定
 
 **Mattermost AI Plugin**のインストールができたら、プラグインから生成的AIサービス呼び出すための設定を行います。設定は、**システムコンソール > プラグイン > Mattermost AI Plugin**から行います。
 
@@ -57,12 +57,12 @@ https://github.com/mattermost/mattermost-plugin-ai/issues/19
 
 上記の他にも、別の生成的AIサービスを利用する場合の設定や、**Mattermost AI Plugin**の機能に関する設定項目等がありますが、とりあえず上記のみ設定すれば一通りの機能は使えるはずです。
 
-## **Mattermost AI Plugin**の機能
+# **Mattermost AI Plugin**の機能
 
 ここからは、**Mattermost AI Plugin**の機能について紹介していきます。
 
 
-### AIとのチャット (Chat anywhere)
+## AIとのチャット (Chat anywhere)
 
 AIに対して質問をして、AIから回答を得るというChatGPTなどでお馴染みの機能です。
 
@@ -72,7 +72,7 @@ Mattermost上のチャンネル、DM、グループメッセージなど、ど�
 
 上記の例では、一つ目の回答内容について、箇条書きの項番のみを指定する形で追加の質問を行いましたが、ちゃんと指定した項番の内容を理解して回答をしてくれました。
 
-### スレッドの要約 (Thread Summarization)
+## スレッドの要約 (Thread Summarization)
 
 Mattermost内の会話スレッドの内容を要約してくれる機能です。
 
@@ -122,7 +122,7 @@ Mattermost内の会話スレッドの内容を要約してくれる機能です�
 
 > A Mattermost app user reported that the font in the app was unintentionally changed and asked how to revert it back. The user is using Mattermost App version 5.4.0 on Windows 10 Enterprise. They mentioned that the font change issue only occurred in the Mattermost app and not in other apps or the web browser. Reinstalling the app did not resolve the issue. Another user suggested checking the C:\windows\fonts folder for the font or changing the font's file name if found. However, the original user resolved the issue by deleting the font and reinstalling the Mattermost app.
 
-#### (実験)内部で使われているプロンプトを日本語に変更する
+## (実験)内部で使われているプロンプトを日本語に変更する
 
 **Mattermost AI Plugin**は、各ユースケースごとに使用されるプロンプトを内部に保持しています。現在、プロンプトは英語のみに対応しているため、日本語のスレッドに対しても英語の要約が生成されてしまうのだと思います。  
 試しに、このプロンプトの内容を日本語にして、日本語のスレッドの要約を生成させてみました。
@@ -176,7 +176,7 @@ https://github.com/mattermost/mattermost-plugin-ai/blob/4b53767d6acadb290be1266f
 
 英語の時よりだいぶスッキリした要約が生成されていますが、最も重要な部分であるフォントファイルの場所(`C:\windows\fonts`)が回答から抜けてしまっているため、要約としては少し厳しいものがある気がしました。
 
-### スレッドに関する質問 (Answer questions about Threads)
+## スレッドに関する質問 (Answer questions about Threads)
 
 スレッドの要約を生成した後、そのスレッドに関する追加の質問を行うこともできるようです。
 
@@ -194,7 +194,7 @@ https://github.com/mattermost/mattermost-plugin-ai/blob/4b53767d6acadb290be1266f
 
 また、元の要約ではメッセージを投稿したユーザー名等は出てきていませんでしたが、追加の質問ではユーザー名が明示されるようになっています。
 
-### OpenAI限定の機能
+## OpenAI限定の機能
 
 OpenAIのFunction calling機能を使った機能も開発中のようです。  
 現在は、`LookupMattermostUser`と`GetChannelPosts`、また、GitHub Pluginを有効化している場合のみ`GetGithubIssue`というFunctionが使えるようでです。詳細は[server/built_in_tools.go](https://github.com/mattermost/mattermost-plugin-ai/blob/4b53767d6acadb290be1266f288e9d4b755fc6c4/server/built_in_tools.go#L143)の定義を参照ください。
