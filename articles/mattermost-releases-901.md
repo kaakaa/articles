@@ -3,7 +3,7 @@ title: "Mattermost 9.1の新機能"
 emoji: "🎉"
 type: "tech"
 published: true
-date: 2023-09-17T23:00:00+09:00
+date: 2023-10-17T23:00:00+09:00
 toc: true
 tags: ["mattermost", "releases"]
 ---
