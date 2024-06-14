@@ -89,7 +89,7 @@ curl -X POST \
 これまでにも何度か紹介しているMattermostのAI系機能であるMattermost AI Copilotプラグインについて、新たな紹介動画が公開されています。  
 JIRAやGitHubのリンクをMattermostに投稿することで、チケットの要約をMattermost上に投稿することなどもできるようです。 (動画 0:57~)
 
-{{< youtube E3EGLxgNxNA >}}
+https://www.youtube.com/watch?v=E3EGLxgNxNA
 
 また、以下のサイトからインタラクティブなデモを体験することもできるようになっています。  
 [AI innovation meets unparalleled data control](https://mattermost.com/copilot/)
