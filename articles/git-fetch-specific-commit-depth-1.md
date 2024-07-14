@@ -6,6 +6,7 @@ published: true
 date: 2023-01-05T23:40:00+09:00
 toc: true
 tags: ["git", "tips", "go-git"]
+aliases: "/post/tech/git-fetch-specific-commit-depth-1"
 ---
 
 

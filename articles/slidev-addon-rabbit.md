@@ -6,6 +6,7 @@ published: true
 date: 2023-04-24T22:30:00+09:00
 toc: true
 tags: ["slidev", "slidev-addon", "slidev-addon-rabbit", "rabbit"]
+aliases: "/post/tech/slidev-addon-rabbit"
 ---
 
 

@@ -6,6 +6,7 @@ published: true
 date: 2022-02-19T17:40:00+09:00
 toc: true
 tags: ["mattermost", "releases"]
+aliases: "/post/mattermost/releases-6.4"
 ---
 Mattermost 記事まとめ: https://blog.kaakaa.dev/tags/mattermost/
 

@@ -6,6 +6,7 @@ published: true
 date: 2023-07-18T23:00:00+09:00
 toc: true
 tags: ["mattermost", "releases"]
+aliases: "/post/mattermost/releases-8.0"
 ---
 
 

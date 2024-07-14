@@ -6,6 +6,7 @@ published: true
 date: 2021-12-20T12:00:00+09:00
 toc: true
 tags: ["mattermost", "advent-calendar"]
+aliases: "/post/mattermost/merge-instances"
 ---
 
 この記事は[FUJITSU Advent Calender 2021](https://qiita.com/advent-calendar/2021/fujitsu)の20日目の記事です。 

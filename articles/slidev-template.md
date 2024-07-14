@@ -6,6 +6,7 @@ published: true
 date: 2023-05-21T15:30:00+09:00
 toc: true
 topics: ["slidev", "github","githubactions","githubpages","githubreleases"]
+aliases: "/post/tech/slidev-template"
 ---
 
 

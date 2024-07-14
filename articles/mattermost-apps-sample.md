@@ -5,6 +5,7 @@ type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["mattermost", "integrations"]
 date: 2021-05-08T00:00:00+09:00
 published: true
+aliases: "/post/mattermost/apps-sample"
 ---
 
 Mattermost 記事まとめ: https://blog.kaakaa.dev/tags/mattermost/

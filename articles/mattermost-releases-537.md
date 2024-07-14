@@ -7,6 +7,7 @@ published: true
 date: 2021-07-17T13:30:00+09:00
 draft: false
 toc: true
+aliases: "/post/mattermost/releases-5.37"
 ---
 
 Mattermost 記事まとめ: https://blog.kaakaa.dev/tags/mattermost/

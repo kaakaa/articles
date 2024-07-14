@@ -6,6 +6,7 @@ published: true
 date: 2023-04-23T23:30:00+09:00
 toc: true
 tags: ["slidev", "rabbit"]
+aliases: "/post/tech/slidev-rabbit-turtle"
 ---
 
 
