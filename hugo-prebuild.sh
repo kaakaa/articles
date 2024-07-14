@@ -8,3 +8,6 @@ find ./articles -type f -name "*.md" -exec sed -i -E 's|^https://www\.youtube\.c
 
 find ./articles -type f -name "*.md" -exec sed -i -E 's|^https://twitter\.com/([^/]+)/status/([0-9]+)|{{< tweet user="\1" id="\2" >}}|g' {} \;
 find ./articles -type f -name "*.md" -exec sed -i -E 's|^https://x\.com/([^/]+)/status/([0-9]+)|{{< tweet user="\1" id="\2" >}}|g' {} \;
+
+# 3. Remove "published: false" from all articles
+find ./articles -type f -name "*.md" -exec sed -i -E '/^published: false/d' {} \;
