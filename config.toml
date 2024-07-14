@@ -7,8 +7,19 @@ enableInlineShortcodes = true
 hasCJKLanguage = true
 footnoteReturnLinkContents = "^"
 
-googleAnalytics = "G-7H97CTR9R6"
-disqusShortname = "kaakaa-blog"
+[module]
+  [[module.mounts]]
+    source = 'articles'
+    target = 'content/post'
+  [[module.mounts]]
+    source = 'content/page'
+    target = 'content/page'
+
+[services]
+  [services.googleAnalytics]
+    ID = "G-7H97CTR9R6"
+  [services.disqus]
+    Shortname = "kaakaa-blog"
 
 [markup]
   [markup.goldmark]
@@ -72,7 +83,6 @@ tag = "tags"
   icon = "fas fa-rss fa-lg"
   url = "/index.xml"
   weight = 9
-
 
 [[params.social]]
   name = "GitHub"
