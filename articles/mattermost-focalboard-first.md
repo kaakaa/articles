@@ -3,6 +3,7 @@ title: "NotionのようなUIのTrelloっぽいKanbanツールのOSSの Focalboar
 emoji: "🗒️"
 type: "tech"
 topics: [focalboard, oss, mattermost, trello, notion]
+date: 2021-03-14T00:00:00+09:00
 published: true
 ---
 

@@ -3,6 +3,7 @@ title: "FocalboardのMattermostプラグインについて"
 emoji: "🔌"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [focalboard, oss, mattermost, plugin]
+date: 2021-06-03T00:00:00+09:00
 published: true
 ---
 
