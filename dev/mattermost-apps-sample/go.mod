@@ -1,4 +1,4 @@
-module github.com/kaakaa/zenn-articles/dev/mattermost-apps-sample
+module github.com/kaakaa/articles/dev/mattermost-apps-sample
 
 go 1.16
 

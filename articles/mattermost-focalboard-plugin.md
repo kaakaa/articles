@@ -83,23 +83,23 @@ $ docker-compose up -d --build
 
 Mattermostの **System Console > PLUGINS (BETA) > Plugin Management > Upload Plugin** から、先ほどダウンロードしたPluginファイルをアップロードします。
 
-![Mattermost Main Menu](https://github.com/kaakaa/zenn-articles/raw/master/articles/img/mattermost-focalboard-plugin/mattermost-main-menu.png)
+![Mattermost Main Menu](https://github.com/kaakaa/articles/raw/master/articles/img/mattermost-focalboard-plugin/mattermost-main-menu.png)
 
-![Mattermost Upload Plugin](https://github.com/kaakaa/zenn-articles/raw/master/articles/img/mattermost-focalboard-plugin/mattermost-upload-plugin.png)
+![Mattermost Upload Plugin](https://github.com/kaakaa/articles/raw/master/articles/img/mattermost-focalboard-plugin/mattermost-upload-plugin.png)
 
 Pluginのアップロードが成功すると、**System Console > PLUGINS (BETA) > Plugin Management > Installed Plugin** に `Focalboard` プラグインが表示されます。  
 **Enable** リンクをクリックし、Pluginを起動します。
 
-![Mattermost Enable Plugin](https://github.com/kaakaa/zenn-articles/raw/master/articles/img/mattermost-focalboard-plugin/mattermost-enable-plugin.png)
+![Mattermost Enable Plugin](https://github.com/kaakaa/articles/raw/master/articles/img/mattermost-focalboard-plugin/mattermost-enable-plugin.png)
 
 ### Pluginの利用
 Focalboard Plugin が有効化されると、Mattermostの各チャンネルのヘッダー部分にFocalboardのアイコンが表示されるようになります。
 
-![Mattermost Focalboard Icon](https://github.com/kaakaa/zenn-articles/raw/master/articles/img/mattermost-focalboard-plugin/mattermost-focalboard-icon.png)
+![Mattermost Focalboard Icon](https://github.com/kaakaa/articles/raw/master/articles/img/mattermost-focalboard-plugin/mattermost-focalboard-icon.png)
 
 このアイコンをクリックすると、Focalboardが別タブとして開きFocalboardが利用できるようになります。  
 
-![Focalboard](https://github.com/kaakaa/zenn-articles/raw/master/articles/img/mattermost-focalboard-plugin/focalboard.png)
+![Focalboard](https://github.com/kaakaa/articles/raw/master/articles/img/mattermost-focalboard-plugin/focalboard.png)
 
 その後の操作はFocalboardと一緒です。
 

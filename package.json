@@ -1,5 +1,5 @@
 {
-  "name": "zenn-articles",
+  "name": "articles",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaakaa/zenn-articles.git"
+    "url": "git+https://github.com/kaakaa/articles.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kaakaa/zenn-articles/issues"
+    "url": "https://github.com/kaakaa/articles/issues"
   },
-  "homepage": "https://github.com/kaakaa/zenn-articles#readme",
+  "homepage": "https://github.com/kaakaa/articles#readme",
   "dependencies": {
     "textlint-rule-preset-ja-technical-writing": "^6.0.0",
     "zenn-cli": "^0.1.151"
