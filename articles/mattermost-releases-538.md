@@ -5,7 +5,6 @@ type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["mattermost", "releases"]
 published: true
 date: 2021-08-21T00:30:00+09:00
-draft: false
 toc: true
 aliases: "/post/mattermost/releases-5.38"
 ---
