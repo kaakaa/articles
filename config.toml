@@ -11,6 +11,9 @@ footnoteReturnLinkContents = "^"
   [[module.mounts]]
     source = 'articles'
     target = 'content/post'
+  [[module.mounts]] # Copy hugo contents in order to avoid 404
+    source = 'content/post'
+    target = 'content/post'
   [[module.mounts]]
     source = 'content/page'
     target = 'content/page'
