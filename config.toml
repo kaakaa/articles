@@ -1,4 +1,5 @@
-baseURL = "https://blog.kaakaa.dev/"
+# baseURL = "https://blog.kaakaa.dev/"
+baseURL = "https://kaakaa.github.io/zenn-articles/"
 title = "kaakaa blog"
 theme = "harbor"
 language = "ja"
