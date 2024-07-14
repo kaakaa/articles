@@ -19,6 +19,11 @@ footnoteReturnLinkContents = "^"
     source = 'content/page'
     target = 'content/page'
 
+googleAnalytics = "G-7H97CTR9R6"
+disqusShortname = "kaakaa-blog"
+
+# Should replace configs with the following, however, harbor theme still using
+# deprecated ".Site.GoogleAnalytics" and ".Site.DisqusShortname"
 [services]
   [services.googleAnalytics]
     ID = "G-7H97CTR9R6"
