@@ -55,7 +55,7 @@ https://www.youtube.com/watch?v=lDZQ_fZzM1I
 
 ### Mattermost v10
 
-Mattermostもメジャーバージョンアップである **v10** のリリース予定日が2024/09/16に設定されたようです。  
+Mattermostのメジャーバージョンアップである **v10** のリリース予定日が2024/09/16に設定されたようです。  
 [v10 changelog \- Mattermost documentation](https://docs.mattermost.com/about/mattermost-v10-changelog.html)
 
 Mattermost v10で廃止予定となる機能について、上記ページにいくつか記載されています。
@@ -67,11 +67,11 @@ Mattermost v10以降、MySQLを使用した新規環境はサポート対象外�
 
 **Apps Framework**
 
-[Mattermost Apss Framework](https://zenn.dev/kaakaa/articles/mattermost-apps-sample)は、Mattermost v10でdeprecatedとなるようです。Mattermostの拡張機能を開発する際は、Webhook、スラッシュコマンド、OAuth2アプリ、プラグインのいずれかを使用するよう案内されています。
+[Mattermost Apss Framework](https://zenn.dev/kaakaa/articles/mattermost-apps-sample)が、Mattermost v10でdeprecatedとなるようです。Mattermostの拡張機能を開発する際は、Webhook、スラッシュコマンド、OAuth2アプリ、プラグインのいずれかを使用するよう案内されています。
 
 **PlaybookがEnterprise版限定機能に**
 
-Mattermost v10と同時(?)にリリースされる[Mattermost Playbook Plugin](https://github.com/mattermost/mattermost-plugin-playbooks) v2.0以降を利用するには、[Enterpirseライセンス](https://mattermost.com/pricing/)が必要になるようです。Playbook v1.x系は、引き続き利用することができますがセキュリティ対応含め、更新は行われなくなるとのことです。
+Mattermost v10と同時(?)にリリースされる[Mattermost Playbook Plugin](https://github.com/mattermost/mattermost-plugin-playbooks)のv2.0以降を利用するには、[Enterpirseライセンス](https://mattermost.com/pricing/)が必要になるようです。Playbook v1.x系は、引き続き利用することができますがセキュリティ対応含め、更新は行われなくなるとのことです。
 
 ### User Survey Plugin
 
