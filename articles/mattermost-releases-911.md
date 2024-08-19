@@ -34,17 +34,15 @@ Mattermost 記事まとめ: https://blog.kaakaa.dev/tags/mattermost/
 
 ## キーボードショートカット一覧画面の更新
 
-`Ctrl/Cmd + /`で開くことのできるキーボードショートカット一覧画面の表示が更新されました。
+`Ctrl + /`もしくは`Cmd + /`で開くことのできるキーボードショートカット一覧画面の表示が更新されました。
 
 ![](https://blog.kaakaa.dev/images/posts/mattermost/releases-9.11/channels-keyboard-shortcut.png)
 
 ## @メンションを含むメッセージを編集する際の注意
 
-@メンションを含むメッセージを編集する際、"Editing this message with an @mention will not notify the recipient (このメッセージを@メンション付きで編集しても、相手には通知されません。)"というメッセージが表示されるようになりました。  
-メッセージを編集する際に、メンションが飛んでしまうかどうかを心配する必要がなくなります。
+@メンションを含むメッセージを編集する際、"このメッセージを@メンション付きで編集しても、相手には通知されません。"という旨のメッセージが表示されるようになりました。メッセージを編集する際に、メンションが飛んでしまうかどうかを心配する必要がなくなります。
 
 ![](https://blog.kaakaa.dev/images/posts/mattermost/releases-9.11/channels-edit-message.png)
-
 
 ## (Enterprise) システム管理者によるユーザー設定の変更
 
@@ -61,8 +59,7 @@ Mattermost Enterprise版を利用している場合、システム管理者が�
 
 ### Elasticsearch v8のサポート
 
-Elasticsearch v8のサポートが追加されました。また、Opensearchのサポートがベータ版として追加され、`ElasticsearchSettings.Backend`で Elasticsearch と Opensearch を選択できるようになりました。  
-この変更により、AWS Elasticsearch v7.10はサポートされなくなるため、AWS Elasticsearchを利用しているユーザーはAWS Opensearchへのアップグレードが必要となります。
+Elasticsearch v8のサポートが追加されました。また、Opensearchのサポートがベータ版として追加され、`ElasticsearchSettings.Backend`で Elasticsearch と Opensearch を選択できるようになりました。この変更により、AWS Elasticsearch v7.10はサポートされなくなるため、AWS Elasticsearchを利用しているユーザーはAWS Opensearchへのアップグレードが必要となります。
 
 詳しくは、以下のページを参照ください。  
 [Important Upgrade Notes \- Mattermost documentation](https://docs.mattermost.com/upgrade/important-upgrade-notes.html)
