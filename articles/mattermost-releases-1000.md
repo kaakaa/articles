@@ -12,6 +12,9 @@ Mattermost 記事まとめ: https://blog.kaakaa.dev/tags/mattermost/
 
 [Twitter: @mattermost_jp](https://twitter.com/mattermost_jp) で Mattermost に関する日本語の情報を提供しています。
 
+* 2024/09/18追記: Mattermost公式の[v10紹介動画](https://www.youtube.com/watch?v=1hplYBM5tyg)に関する記載を追加しました。
+* 2024/09/18追記: Microsoftサービス関連のプラグインに関する記述を追加しました。
+
 # はじめに
 
 2024/09/16 に Mattermost のアップデートとなる `v10.0.0` がリリースされました。  
@@ -24,10 +27,10 @@ Mattermost 記事まとめ: https://blog.kaakaa.dev/tags/mattermost/
 
 - [v10 changelog \- Mattermost documentation](https://docs.mattermost.com/about/mattermost-v10-changelog.html#release-v10-0-major-release)
 
-本バージョンでの主な変更点を紹介する動画は、まだMattermostの公式YouTubeチャンネルで公開されていないようです。  
-メジャーバージョンアップにより動画公開方針が変更になったりしていなければ数日中にアップロードされるかと思うので、以下のMattermost公式YouTubeチャンネルをチェックしてみてください。
+本バージョンでの主な変更点を紹介する動画がMattermostの公式YouTubeチャンネルで公開されています。  
+実際の動作を確認したい方は、こちらを参照ください。
 
-https://www.youtube.com/@MattermostHQ/videos
+https://www.youtube.com/watch?v=1hplYBM5tyg
 
 ---
 
@@ -69,6 +72,16 @@ Mattermost v10のリリースに合わせていくつかの機能の呼称が変
 * [Mattermost Playbooks plugin v2.0.1](https://github.com/mattermost/mattermost-plugin-playbooks/releases)
 
 Playbook pluginはv2以降、Enterpriseライセンスユーザーのみが利用できます。その他のユーザーも、Playbook plugin v1を引き続き利用できますが、機能アップデートやセキュリティ修正等は今後行われないようです。
+
+また、Microsoft Teams関連のプラグインがパッケージ済みプラグインとして追加されています。
+
+* [mattermost/mattermost\-plugin\-msteams: MS Teams plugin for Mattermost](https://github.com/mattermost/mattermost-plugin-msteams)
+* [mattermost\-community/mattermost\-plugin\-msteams\-meetings: Mattermost Plugin for Microsoft Teams Meetings](https://github.com/mattermost-community/mattermost-plugin-msteams-meetings)
+* [mattermost/mattermost\-plugin\-mscalendar: Mattermost plugin for Microsoft Office365](https://github.com/mattermost/mattermost-plugin-mscalendar)
+
+今回追加されたMicrosoftサービス関連のプラグインについて、セットアップ方法などは、以下の公式ドキュメントを参照ください。
+
+[Integrate and extend Mattermost \- Mattermost documentation](https://docs.mattermost.com/guides/integrate-and-extend.html)
 
 ## GIF Picker、カスタムグループ、メッセージ優先度機能のBetaラベル削除
 
