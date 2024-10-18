@@ -42,7 +42,7 @@ https://www.youtube.com/watch?v=
 
 > Enabled Channel Bookmarks, added re-ordering, and fixed URL validity checking.
 
-Mattermost v9.8でサーバー側のみ機能が追加されていた[チャンネルブックマーク機能](https://blog.kaakaa.dev/post/mattermost-releases-908/#%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB%E3%83%96%E3%83%83%E3%82%AF%E3%83%9E%E3%83%BC%E3%82%AF)がリリースされました。　　
+Mattermost v9.8でサーバー側のみ機能が追加されていた[チャンネルブックマーク機能](https://blog.kaakaa.dev/post/mattermost-releases-908/#%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB%E3%83%96%E3%83%83%E3%82%AF%E3%83%9E%E3%83%BC%E3%82%AF)がリリースされました。  
 Professional版とEnterprise版のユーザーのみ利用可能です。
 
 [Manage channel bookmarks \- Mattermost documentation](https://docs.mattermost.com/collaborate/manage-channel-bookmarks.html)
@@ -53,7 +53,7 @@ Professional版とEnterprise版のユーザーのみ利用可能です。
 
 > Added channel specific message notification sounds configuration.
 
-チャンネルに新規投稿があった場合の通知音について、アカウントごとの設定とは別にチャンネル毎に異なる通知音を設定することができるようになりました。  
+チャンネルに新規投稿があった場合の通知音について、アカウントに対する設定とは別にチャンネル毎に異なる通知音を設定することができるようになりました。  
 重要なチャンネルのみ通知音を変えて注意を向けやすくするなどの対応が取れるようになります。
 
 [Manage your channel\-specific notifications \- Mattermost documentation](https://docs.mattermost.com/preferences/manage-your-channel-specific-notifications.html)
@@ -81,8 +81,9 @@ Mattermost Pluginをアップロードする際、Mattermostのアップロー�
 
 > Plugins are now allowed to mark setting fields as secret, obfuscating them in the System Console and the Support Packet.
 
-Mattermost Pluginで設定を扱う際、WebUI上で設定値を見えなくするには Webapp Pluginの[registerAdminConsoleCustomSetting](https://developers.mattermost.com/integrate/reference/webapp/webapp-reference/#registerAdminConsoleCustomSetting)を実装するなどする必要がありました。  
-本バージョンから、Plugin Manifestの`settings_schema`に`secret: bool`というフィールドが追加され、`true`を指定するとその設定値がWebUI上からは見えなくなりました。  
+Mattermost Pluginで設定を扱う際、WebUI上で設定値を見えなくするには Webapp Pluginの[registerAdminConsoleCustomSetting](https://developers.mattermost.com/integrate/reference/webapp/webapp-reference/#registerAdminConsoleCustomSetting)を利用した独自コンポーネントの開発などを実施する必要がありました。  
+本バージョンから、Plugin Manifestの`settings_schema`に`secret: bool`というフィールドが追加され、`true`を指定するとその設定値をWebUI上から見えなくすることができるようになりました。
+
 [Manifest reference at Mattermost](https://developers.mattermost.com/integrate/plugins/manifest-reference/)
 
 ![alt text](https://blog.kaakaa.dev/images/posts/mattermost/releases-10.1/plugins-secret-setting.png)
@@ -97,17 +98,17 @@ Mattermost Pluginで設定を扱う際、WebUI上で設定値を見えなくす�
 
 ### Hacktoberfest 2024
 
-今年もMattermostではHacktober向けのキャンペーンを行っており、以下のような特設ページなどが用意されています。  
+今年もMattermostではHacktober向けのキャンペーンを行っており、以下のような特設ページが用意されています。  
 [Mattermost \- Hacktoberfest 2024](https://mattermost.com/wp-content/uploads/2024/09/Hacktoberfest_Hero_Computer.png). 
 
-Hacktoberfestの開幕を記念して、[Holopin](https://www.holopin.io/)のバッジを配布しているようです。  
+また、Hacktoberfestの開幕を記念して、[Holopin](https://www.holopin.io/)のバッジを配布しているようです。  
 [Hacktoberfest 2024: Contribute, connect & collect digital rewards\! \- Mattermost](https://mattermost.com/blog/hacktoberfest-2024/)
 
 ### Reference Architecture検討
 
 [v10 to the power 5: Scaling Mattermost to support 100,000 users](https://mattermost.com/blog/scaling-mattermost-for-100000-users/)
 
-Mattermostを10万ユーザー以上で利用する場合のReference Architectureを検討する際に実施したことについて説明されています。  
+上記エントリでは、Mattermostを10万ユーザー以上で利用する場合のReference Architectureを検討する際に実施したことについて説明されています。  
 Mattermostの使われ方について調査し、[lord test](https://github.com/mattermost/mattermost-load-test-ng)ツールを改良し、Reference Architectureを導出していく流れが描かれており、個人的に興味深い記事でした。
 
 ユーザー数ごとのReference Architectureについては以下で公開されています。  
