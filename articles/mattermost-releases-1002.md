@@ -14,7 +14,7 @@ Mattermost 記事まとめ: https://blog.kaakaa.dev/tags/mattermost/
 
 # はじめに
 
-2024/10/15 に Mattermost のアップデートとなる `v10.2.0` がリリースされました。  
+2024/11/15 に Mattermost のアップデートとなる `v10.2.0` がリリースされました。  
 
 本記事は、個人的に気になった新しい機能などを動かしてみることを目的としています。
 変更内容の詳細については公式のリリースを確認してください。
@@ -37,7 +37,8 @@ Mattermost 記事まとめ: https://blog.kaakaa.dev/tags/mattermost/
 表示しているチャンネルにピン留めされたメッセージが存在しない場合、チャンネルヘッダー部に表示されるピン留めアイコンが表示されなくなりました。  
 メッセージをピン留めするとアイコンが表示されるようになります。
 
-![alt text](https://blog.kaakaa.dev/images/posts/mattermost/releases-10.2/channels-header-pinned-icon.png). 
+![alt text](https://blog.kaakaa.dev/images/posts/mattermost/releases-10.2/channels-header-pinned-icon.png)
+
 (左: 新版 | 右: 旧版)
 
 ## Message Attachmentsでのフィールドごとのメンションサポート状況の変更
@@ -48,7 +49,8 @@ Mattermost 記事まとめ: https://blog.kaakaa.dev/tags/mattermost/
 
 参考: [MM\-59854 Fully allow at mentions in message attachment field values and add E2E tests by hmhealey · Pull Request \#28018 · mattermost/mattermost](https://github.com/mattermost/mattermost/pull/28018)
 
-![alt text](https://blog.kaakaa.dev/images/posts/mattermost/releases-10.2/channels-mention-in-attachments.png). 
+![alt text](https://blog.kaakaa.dev/images/posts/mattermost/releases-10.2/channels-mention-in-attachments.png)
+
 (左: 新版 | 右: 旧版)
 
 
@@ -62,7 +64,7 @@ REST API `DELETE /api/v4/posts/<post-id>` のエンドポイントに `?permanen
 この機能を利用するには、`config.json`の `EnableAPIPostDeletion`設定を`true`に設定する必要があります。この設定が`true`になっていないと、501エラーでAPIリクエストが失敗します。
 
 ```
-$ curl -X DELETE -H "Authorization: Bearer abcdefghijklmnopqrstuvwxyz" "http://192.168.11.99:8065/api/v4/posts/12345abcdefghijklmnopqrstu?permanent=true"
+$ curl -X DELETE -H "Authorization: Bearer abcdefghijklmnopqrstuvwxyz" "http://mattermost.example.com/api/v4/posts/12345abcdefghijklmnopqrstu?permanent=true"
 
 {"id":"api.post.delete_post.not_enabled.app_error","message":"Cannot delete post, ServiceSettings.EnableAPIPostDeletion is not enabled.","detailed_error":"","request_id":"5cuuhbk64inx8rounjhy91f6ne","status_code":501}
 ```
@@ -70,7 +72,7 @@ $ curl -X DELETE -H "Authorization: Bearer abcdefghijklmnopqrstuvwxyz" "http://1
 
 ## アップグレード時の注意事項
 
-Dockerイメージの署名方法がDocker Content Trust (DCT) から[Cosign](https://github.com/sigstore/cosign)変更されたため、イメージの検証方法も変更されています。詳しくは、以下のMattermost Forumの投稿を参照してください。
+Dockerイメージの署名方法がDocker Content Trust (DCT) から[Cosign](https://github.com/sigstore/cosign)に変更されたため、イメージの検証方法も変更されています。詳しくは、以下のMattermost Forumの投稿を参照してください。
 
 [Upcoming DCT deprecation \- Community \- Mattermost Discussion Forums](https://forum.mattermost.com/t/upcoming-dct-deprecation/19275)
 
@@ -86,7 +88,7 @@ Dockerイメージの署名方法がDocker Content Trust (DCT) から[Cosign](ht
 
 Azure MarketplaceからMattermostが利用可能になりました。Azure AKS上に展開されるサービスとしてMattermostをデプロイできるようです。
 
-[Microsoft Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/mattermost.mattermost-operator?tab=Overview). 
+[Microsoft Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/mattermost.mattermost-operator?tab=Overview)  
 [Mattermost is now available on the Azure Marketplace \- Mattermost](https://mattermost.com/blog/mattermost-on-azure/)
 
 ### 新しいBug Bountyプログラムについて
@@ -95,7 +97,7 @@ Azure MarketplaceからMattermostが利用可能になりました。Azure AKS�
 [Unveiling the future of our bug bounty program \- Mattermost](https://mattermost.com/blog/unveiling-the-future-of-our-bug-bounty-program/)
 
 上記のエントリを見ると、新しいBug Bounty Programの対象として追加されるプロダクトの中に [`Mattermost Boards plugin`](https://github.com/mattermost/mattermost-plugin-boards)が存在しています。
-Boards Pluginについては、2023年9月にリリースされたMattermost v9.0で公式チームからのサポートがなくなりコミュニティ開発に移行したはずですが、GitHubリポジトリを見ると細々とですがまた開発が再開している雰囲気もあります。また開発が再開されるのかもしれません。(スタンドアロン版のFocalboardについては、メンテナの募集をしているようです。[Issue](https://github.com/mattermost/mattermost-plugin-boards))
+Boards Pluginについては、[2023年9月にリリースされたMattermost v9.0で公式チームからのサポートがなくなり](https://forum.mattermost.com/t/upcoming-product-changes-to-boards-and-various-plugins/16669)コミュニティ開発に移行したはずですが、GitHubリポジトリを見ると細々とですがまた開発が再開している雰囲気もあります。また開発が再開されるのかもしれません。(スタンドアロン版のFocalboardについては、メンテナの募集をしているようです。[Issue](https://github.com/mattermost/mattermost-plugin-boards))
 
 ## おわりに
 
