@@ -21,6 +21,11 @@ Mattermost 記事まとめ: https://blog.kaakaa.dev/tags/mattermost/
 
 - [v10 changelog \- Mattermost documentation](https://docs.mattermost.com/about/mattermost-v10-changelog.html#release-v10-2-feature-release)
 
+本バージョンでの主な変更点を紹介する動画がMattermostの公式YouTubeチャンネルで公開されています。  
+実際の動作を確認したい方は、こちらを参照ください。
+
+https://youtu.be/gS6AwkC2zLE
+
 ---
 
 各機能の見出し前の記号は、その機能が利用可能なエディションを表しています。
