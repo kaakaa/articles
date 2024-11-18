@@ -24,7 +24,7 @@ Mattermost 記事まとめ: https://blog.kaakaa.dev/tags/mattermost/
 本バージョンでの主な変更点を紹介する動画がMattermostの公式YouTubeチャンネルで公開されています。  
 実際の動作を確認したい方は、こちらを参照ください。
 
-https://youtu.be/gS6AwkC2zLE
+https://www.youtube.com/watch?v=gS6AwkC2zLE
 
 ---
 
