@@ -38,7 +38,7 @@ Mattermost内で利用されている`marked`パッケージがアップデー�
 
 今までのバージョンでは、`https://mattermost.com、..`のようにURL文字列の直後に全角句読点が存在するような投稿を作成すると、句読点以降の文字も含めてURLとして認識されてしまい、意図とは異なるリンクが生成されてしまっていました
 
-<img src="https://blog.kaakaa.dev/images/posts/mattermost/releases-10.7/channels-marked-punctuation-fail.png" width="600"
+![alt text](https://blog.kaakaa.dev/images/posts/mattermost/releases-10.7/channels-marked-punctuation-fail.png]
 
 この問題が本バージョンで解消され、全角句読点以降はURLとして認識されなくなりました。
 
