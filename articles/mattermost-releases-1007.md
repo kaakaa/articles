@@ -34,11 +34,11 @@ Mattermost 記事まとめ: https://blog.kaakaa.dev/tags/mattermost/
 
 > Updated the marked package which includes full-width punctuation intervals for Unicode characters fix.
 
-Mattermost内で利用されている`marked`パッケージがアップデートされ、URL文字列に続いて全角句読点を入力した場合に句読点とそれに続く文字列もURLの一部として認識されてしまう問題が解消しました。
+Mattermost内で利用されている`marked`パッケージがアップデートされ、URL文字列に続いて全角句読点を入力した場合に、句読点とそれに続く文字列もURLの一部として認識されてしまう問題が解消しました。
 
 今までのバージョンでは、`https://mattermost.com、..`のようにURL文字列の直後に全角句読点が存在するような投稿を作成すると、句読点以降の文字も含めてURLとして認識されてしまい、意図とは異なるリンクが生成されてしまっていました
 
-![alt text](https://blog.kaakaa.dev/images/posts/mattermost/releases-10.7/channels-marked-punctuation-fail.png)
+<img src="https://blog.kaakaa.dev/images/posts/mattermost/releases-10.7/channels-marked-punctuation-fail.png" width="600"
 
 この問題が本バージョンで解消され、全角句読点以降はURLとして認識されなくなりました。
 
@@ -84,8 +84,8 @@ Mattermostへのアクセス時に上記のような設定を行えない場合�
 ![alt text](https://blog.kaakaa.dev/images/posts/mattermost/releases-10.7/channels-frame-ancestors-fail.png)
 > Refused to frame 'http://192.168.11.99:8065/' because an ancestor violates the following Content Security Policy directive: "frame-ancestors 'self'".
 
-これを表示できるようにするには、**システムコンソール > 統合機能 > Embedding > Frame Ancestors**にiframe埋め込みを行なっているサイトを追加します。今回は、前述のHTMLファイルに`http://192.168.11.99:8000/embed.html`でアクセスできるようにしているため、`http://192.168.11.99:8000`を追加します。  
-(ここで設定された値はContents-Security-Policyの`frame-ancestors`ディレクティブとして扱われます。[CSP: frame\-ancestors \- HTTP \| MDN](https://developer.mozilla.org/ja/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/frame-ancestors))
+**システムコンソール > 統合機能 > Embedding > Frame Ancestors**にiframe埋め込みを行なっているサイトを追加することでアクセスできるようになります。  
+今回は、前述のHTMLファイルに`http://192.168.11.99:8000/embed.html`でアクセスできるようにしているため、`http://192.168.11.99:8000`を追加します。(ここで設定された値はContents-Security-Policyの[`frame-ancestors`ディレクティブ](https://developer.mozilla.org/ja/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/frame-ancestors)として扱われます。)
 
 
 ![alt text](https://blog.kaakaa.dev/images/posts/mattermost/releases-10.7/channels-frame-ancestors-settings.png)
