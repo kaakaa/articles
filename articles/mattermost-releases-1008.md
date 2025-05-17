@@ -38,7 +38,7 @@ Mattermost 記事まとめ: https://blog.kaakaa.dev/tags/mattermost/
 チャンネルメニューの表示内容が変更されました。  
 いくつかのメニューがサブメニューに移動するなど、スッキリした見た目になっています。
 
-![alt text](https://blog.kaakaa.dev/images/posts/mattermost/releases-10.7/channels-channel-menu-improvement.png)
+![alt text](https://blog.kaakaa.dev/images/posts/mattermost/releases-10.8/channels-channel-menu-improvement.png)
 
 ## 電子メール通知設定の改善
 
@@ -48,7 +48,7 @@ Mattermost 記事まとめ: https://blog.kaakaa.dev/tags/mattermost/
 今までは5分以上離席状態が続いている間にイベントがあった場合に都度メールが送信されていましたが、15分/1時間ごとにまとめて(batch形式で)通知メールを送信するオプションが選択できるようになりました。
 
 
-![alt text](https://blog.kaakaa.dev/images/posts/mattermost/releases-10.7/channels-email-notification-setting.png)
+![alt text](https://blog.kaakaa.dev/images/posts/mattermost/releases-10.8/channels-email-notification-setting.png)
 
 
 ## アップグレード時の注意事項
