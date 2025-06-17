@@ -50,7 +50,7 @@ v10.9から**Enterprise Advanced**ライセンスが追加されたようです�
 
 今までのバージョンでは、チャンネル名の変更やチャンネルヘッダーの編集などは別々のメニューとして存在していましたが、それらが **Channel Settings (チャンネル設定)**に統一され、一つの画面でチャンネルに関する設定の編集を行うことができるようになりました。
 
-![alt text](https://blog.kaakaa.dev/images/posts/mattermost/releases-10.9/channels-channel-setttings.png)
+![alt text](https://blog.kaakaa.dev/images/posts/mattermost/releases-10.9/channels-channel-settings.png)
 
 
 ## "<..>" で囲まれたメールアドレスが使用禁止に
