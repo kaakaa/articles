@@ -42,6 +42,13 @@ v10.9から**Enterprise Advanced**ライセンスが追加されたようです�
 
 > * Added support for user attributes for Enterprise Advanced licensed servers. Defined policies that automatically grant channel memberships based on user attributes. Membership updates happen automatically when user attributes change — no need for manual role adjustments.
 
+(2025/06/18 追記)
+
+Enterprise Advancedプランに関する公式の紹介動画が公開されていました。  
+Enterpriseプランに加えポスト量子暗号やEnd-to-End暗号化など、National Securityレベルのセキュリティやミッションクリティカル性を求められる環境向けのプランとして導入されたものという印象を受けました。
+
+https://youtu.be/-pTC_3oyc9Q?si=Mp4ohlVDfAn-sTUK
+
 ## チャンネル設定メニューの統合
 
 > Consolidated all channel editing functionality into a single, accessible modal located in the channel header menu. Users can now update channel names, URL slugs, convert to private, modify/add a purpose and header (with a live markdown preview), manage channel banners, and archive the channel—all in one place. Updates include safeguards for unsaved edits, improved URL-slug editing, and enhanced keyboard and navigation accessibility.
