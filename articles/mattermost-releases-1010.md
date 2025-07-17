@@ -32,7 +32,7 @@ Mattermost 記事まとめ: https://blog.kaakaa.dev/tags/mattermost/
 
 見出しの前に何もない場合、Free版も利用可能な機能です。
 
-### 引用文とスレッドの表示改善
+## 引用文とスレッドの表示改善
 
 > Improved the visual styling of blockquotes and comment threads for better readability and a modern appearance.
 
