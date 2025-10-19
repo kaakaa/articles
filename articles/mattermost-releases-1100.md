@@ -112,7 +112,7 @@ Mattermost 上で定義したカスタムプロフィール属性の設定値を
 
 カスタムプロフィール属性を定義するには、**システムコンソール > システム属性 > ユーザー属性** へ移動し、**+ 属性を追加** ボタンをクリックします。
 
-![Alt text](https://blog.kaakaa.dev/images/posts/mattermost/releases-11.0/channels-cpa-definitions.png)
+![Alt text](https://blog.kaakaa.dev/images/posts/mattermost/releases-11.0/channels-cpa-definition.png)
 
 設定種別は `テキスト`、`電話番号`、`URL`、`選択(Select)`、`複数選択` から選ぶことができ、それぞれの属性に対して各ユーザーによる変更を許可するか（**Editable by users**）や、AD/LDAP または SAML のユーザー情報と同期するかどうかなどを設定することができます。
 
@@ -128,7 +128,7 @@ Mattermost 上で定義したカスタムプロフィール属性の設定値を
 
 **システムコンソール > システム属性 > 属性ベースのアクセス** を開き、**"このサーバーで属性ベースのアクセス制御を許可する"** を有効にした後、**アクセス制御ポリシー** の **+ ポリシーを追加** ボタンをクリックします。
 
-![Alt text](https://blog.kaakaa.dev/images/posts/mattermost/releases-11.0/channels-abac-definitions.png)
+![Alt text](https://blog.kaakaa.dev/images/posts/mattermost/releases-11.0/channels-abac-definition.png)
 
 アクセス制御ポリシー名を入力し、**"アクセスルールに基づく自動メンバー追加"** の設定を行います。  
 **"アクセスルールに基づく自動メンバー追加"** の設定を有効にすると、このアクセス制御ポリシーで設定した属性値と一致する属性値を持つユーザーアカウントが自動で設定されたチャンネルに追加され、当該属性値に一致しなくなると自動で削除されるようになります。ロールやチームなどによって必ず所属すべきチャンネル等がある場合、新しいメンバーが参画した際などに、毎回当該チャンネルへユーザーを招待するという操作が不要になります。
